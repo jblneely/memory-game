@@ -3,12 +3,20 @@ body {
 	margin: 0;
 }
 h1 {
-	font-family: "Raleway" sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-weight: 400;
 	margin: 0;
 }
 p {
 	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 16px;
+}
+a {
+	border-bottom: 2px solid transparent;
+}
+a:hover {
+	border-color: white;
 }
 header {
 	background-color: #F15B31;
@@ -29,3 +37,37 @@ div {
 	margin-top-bottom: 40px;
 	margin-right-left: 8px;
 }
+footer {
+	text-transform: uppercase;
+	padding: 0px 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+.copyright {
+	font-family: raleway;
+	float: left;
+}
+.message {
+	font-family: raleway;
+	float: right;
+}
+.clearfix:after {
+	visiblity: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
+
+
+
+
